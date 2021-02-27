@@ -1,4 +1,4 @@
-package com.makarov.practice.IntroductionToObjects;
+package com.makarov.practice.chapter2.IntroductionToObjects;
 
 import java.util.*;
 /**

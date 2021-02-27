@@ -1,4 +1,4 @@
-package com.makarov.practice.javadoc;
+package com.makarov.practice.chapter2.javadoc;
 
 //: javadoc/Date.java
 import java.util.*;
