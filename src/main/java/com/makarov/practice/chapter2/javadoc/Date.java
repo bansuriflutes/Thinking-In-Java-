@@ -1,6 +1,6 @@
 package com.makarov.practice.javadoc;
 
-//: object/Date.java
+//: javadoc/Date.java
 import java.util.*;
 
 /**
