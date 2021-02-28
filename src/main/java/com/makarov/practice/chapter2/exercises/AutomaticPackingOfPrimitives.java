@@ -1,15 +1,18 @@
 package com.makarov.practice.chapter2.exercises;
 
+/**
+ * @class AutomaticPackingOfPrimitives.
+ * Java program showed automatic packing of primitives.
+ * @author Oleksandr Makarov
+ * @author fleitist@gmail.com
+ * @version 1.0
+ */
+
 public class AutomaticPackingOfPrimitives {
 
     int x = 5;
     char ch;
-    /**Механизм автоматической ynaKoeKuJzva SE5 автоматически преобразует примитивный тип
-    в объектную «обертку»:
-    Character ch = 'x';
-    и обратно:
-    char с = ch;
-    Причины создания подобных конструкций будут объяснены в последующих главах*/
+
     public static void main(String[] args) {
         AutomaticPackingOfPrimitives apop = new AutomaticPackingOfPrimitives();
         apop.ch = '$';
