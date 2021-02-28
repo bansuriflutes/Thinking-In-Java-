@@ -10,24 +10,32 @@ package com.makarov.practice.chapter2.exercises;
 
 
 public class OneStaticField {
-    static int x = 25;
-    int c = 3;
     public static void main(String[] args) {
-        //static
-        OneStaticField osf1 = new OneStaticField();
-        osf1.x++;
-        OneStaticField osf2 = new OneStaticField();
+        //static field x = 0;
+        StaticField osf1 = new StaticField();
+        StaticField osf2 = new StaticField();
+        StaticField osf3 = new StaticField();
+        osf2.x++;
 
-        //non static
-        OneStaticField osf3 = new OneStaticField();
-        osf3.c++;
-        OneStaticField osf4 = new OneStaticField();
 
-        System.out.println("One instance for static osf1 and for osf2 \n" + "osf1.x increment = " + osf1.x +
-                "*** but osf2.c not increment and does not matter = " + osf2.x);
+        //non static field = 0;
+        StaticField osf4 = new StaticField();
+        StaticField osf5 = new StaticField();
+        StaticField osf6 = new StaticField();
+        osf5.c++;
+        osf6.c = 24;
 
-        System.out.println("Nonstatic field different for other objects \n" +
-                " osf3.c increment and = " + osf3.c + " " + " but osf4.c not increment and = " + osf4.c);
+        //static field common for all object
+        System.out.println("By default x = 0");
+        System.out.println("static osf1 = " + osf1.x + " \n" + "static osf2 = " + osf2.x +
+                " \n" + "static osf3 = " + osf3.x);//return x = 1, x = 1, x =1
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+        //nonstatic field changed for every object
+        System.out.println("By default c = 0");
+        System.out.println("nonstatic osf4 = " + osf4.c + " \n" + "nonstatic osf5 = " + osf5.c +
+                " \n" + "nonstatic osf6 = " + osf6.c);//return c = 0, c = 1, c = 24
 
     }
 
