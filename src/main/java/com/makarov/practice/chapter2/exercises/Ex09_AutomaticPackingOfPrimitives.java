@@ -1,20 +1,18 @@
 package com.makarov.practice.chapter2.exercises;
 
 /**
- * @class AutomaticPackingOfPrimitives.
+ * @class Ex09_AutomaticPackingOfPrimitives.
  * Java program showed automatic packing of primitives.
- * @author Oleksandr Makarov
- * @author fleitist@gmail.com
  * @version 1.0
  */
 
-public class AutomaticPackingOfPrimitives {
+public class Ex09_AutomaticPackingOfPrimitives {
 
     int x = 5;
     char ch;
 
     public static void main(String[] args) {
-        AutomaticPackingOfPrimitives apop = new AutomaticPackingOfPrimitives();
+        Ex09_AutomaticPackingOfPrimitives apop = new Ex09_AutomaticPackingOfPrimitives();
         apop.ch = '$';
         char c = apop.ch;
 

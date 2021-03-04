@@ -1,21 +1,17 @@
 package com.makarov.practice.chapter2.exercises;
-  
-import java.lang.Class;
-import java.util.*;
+
 /**
- * @class ATypeName.
+ * @class Ex03_ATypeName.
  * Java program to demonstrate create class object/instance
- * @author Oleksandr Makarov
- * @author fleitist@gmail.com
  * @version 1.0
 */ 
   
-public class ATypeName {
+public class Ex03_ATypeName {
   
   public static void main(String[] args) {
   
   // returns the Class object
-  ATypeName myClass = new ATypeName();
+  Ex03_ATypeName myClass = new Ex03_ATypeName();
  
   System.out.println("TypeName of myClass: " + myClass.toString());
   }

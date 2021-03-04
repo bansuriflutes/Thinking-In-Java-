@@ -1,27 +1,25 @@
 package com.makarov.practice.chapter2.exercises;
 
 /**
- * @class OneStaticField.
+ * @class Ex08_OneStaticField.
  * Java program showed behavior static and nonstatic fields.
- * @author Oleksandr Makarov
- * @author fleitist@gmail.com
  * @version 1.0
  */
 
 
-public class OneStaticField {
+public class Ex08_OneStaticField {
     public static void main(String[] args) {
         //static field x = 0;
-        StaticField osf1 = new StaticField();
-        StaticField osf2 = new StaticField();
-        StaticField osf3 = new StaticField();
+        Ex08_1_StaticField osf1 = new Ex08_1_StaticField();
+        Ex08_1_StaticField osf2 = new Ex08_1_StaticField();
+        Ex08_1_StaticField osf3 = new Ex08_1_StaticField();
         osf2.x++;
 
 
         //non static field = 0;
-        StaticField osf4 = new StaticField();
-        StaticField osf5 = new StaticField();
-        StaticField osf6 = new StaticField();
+        Ex08_1_StaticField osf4 = new Ex08_1_StaticField();
+        Ex08_1_StaticField osf5 = new Ex08_1_StaticField();
+        Ex08_1_StaticField osf6 = new Ex08_1_StaticField();
         osf5.c++;
         osf6.c = 24;
 

@@ -1,19 +1,17 @@
 package com.makarov.practice.chapter2.exercises;
 
 /**
- * @class Store.
+ * @class Ex06_Store.
  * Java program to returns the length of the string multiplied by 2
- * @author Oleksandr Makarov
- * @author fleitist@gmail.com
  * @version 1.0
  */
-public class Store {
+public class Ex06_Store {
   int storage(String s) {
       return s.length() * 2;
   }
 
     public static void main(String[] args) {
-        Store st = new Store();
+        Ex06_Store st = new Ex06_Store();
 
         System.out.println("The length of the string \"Hello, world!\" * 2 = " + st.storage("Hello, world!") + " symbols");
     }

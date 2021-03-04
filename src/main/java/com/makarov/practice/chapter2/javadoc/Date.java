@@ -4,10 +4,8 @@ package com.makarov.practice.chapter2.javadoc;
 import java.util.*;
 
 /**
- *The first programm-example the book.
+ *The first program-example the book.
  * Prints line and current date.
- * @author Oleksandr Makarov
- * @author fleitist@gmail.com
  * @version 1.0
 */
 public class Date {

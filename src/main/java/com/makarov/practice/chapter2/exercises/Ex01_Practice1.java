@@ -1,14 +1,12 @@
 package com.makarov.practice.chapter2.exercises;
 
 /**
- * @class Practice1.
+ * @class Ex01_Practice1.
  * Create clas Practise1 with 2 filds: int and char
  * Prints their values
- * @author Oleksandr Makarov.
- * @author fleitist@gmail.com
  * @version 1.0
 */
-public class Practice1 {
+public class Ex01_Practice1 {
 	
   public static void main(String[] args) {
 		
