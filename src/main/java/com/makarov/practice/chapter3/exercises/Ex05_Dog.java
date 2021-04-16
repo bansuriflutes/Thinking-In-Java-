@@ -12,8 +12,15 @@ public class Ex05_Dog {
         scruffy.name = "scruffy";
         scruffy.says = "bark - bark";
 
-
         System.out.println(spot.name + " says " + spot.says + " \n"
                 + scruffy.name + " says " + scruffy.says);
+        Ex05_Dog sparky = new Ex05_Dog();
+        sparky.name = "sparky";
+        sparky.says = "Grrrr";
+        spot = sparky;
+        System.out.println(sparky == spot);//true
+        System.out.println(scruffy == spot);//false
+        System.out.println(sparky.equals(spot));//true
+        System.out.println(scruffy.equals(spot));//false
     }
 }
