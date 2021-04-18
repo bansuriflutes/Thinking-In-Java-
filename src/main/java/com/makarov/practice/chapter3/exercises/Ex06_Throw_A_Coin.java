@@ -29,8 +29,7 @@ public class Ex06_Throw_A_Coin {
             } else {
                 System.out.println("You got a 'Head'... You're loose");
             }
-        } else /*if (!scan.equals("tail") || !scan.equals("Tail") || !scan.equals("TAIL") ||
-              !scan.equals("head") || !scan.equals("Head") || !scan.equals("HEAD"))*/ {
+        } else {
             System.out.println("You enter incorrect word, try again and type smth like 'head' or 'tail");
         }
 
