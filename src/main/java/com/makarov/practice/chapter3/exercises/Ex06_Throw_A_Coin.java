@@ -8,10 +8,13 @@ import java.util.Scanner;
  */
 public class Ex06_Throw_A_Coin {
     public static void main(String[] args) {
-        System.out.println("*******\nHello player! Greeting you the game 'Head or Tail'");
+        System.out.println("*******\nHello players! Greeting you the game 'Head or Tail'");
+
         System.out.println("What's your choice?\nhead... or tail...???");
         String scan = new Scanner(System.in).nextLine();
         System.out.println("Throw a coin!");
+        System.out.println("********");
+        System.out.println("Your choose a " + "\"" + scan + "\"");
         Random random = new Random();
         int chance = random.nextInt(2) + 1;
         if (scan.equals("head") || (scan.equals("Head") || (scan.equals("HEAD")))) {
@@ -20,12 +23,15 @@ public class Ex06_Throw_A_Coin {
             } else {
                 System.out.println("You got a 'Tail'... You're loose");
             }
-        } if (scan.equals("tail") || scan.equals("Tail") || scan.equals("TAIL")){
+        } else if (scan.equals("tail") || scan.equals("Tail") || scan.equals("TAIL")){
             if (chance == 2) {
                 System.out.println("You got a 'Tail'... You're a winner!");
             } else {
                 System.out.println("You got a 'Head'... You're loose");
             }
+        } else /*if (!scan.equals("tail") || !scan.equals("Tail") || !scan.equals("TAIL") ||
+              !scan.equals("head") || !scan.equals("Head") || !scan.equals("HEAD"))*/ {
+            System.out.println("You enter incorrect word, try again and type smth like 'head' or 'tail");
         }
 
     }
